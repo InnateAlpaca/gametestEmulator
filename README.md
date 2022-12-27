@@ -1,8 +1,8 @@
-# simulatedGametest
+# gametestEmulator
 Test bedrock scripting API classes and functions on nodejs before using them on your addon project. Get the hang of it and easily find bugs.
 
 ## What is it?
-simulatedGametest is a collection of classes, functions and constants that have the same behaviour and signature as modules form official [bedrock scripting API](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/). These classes can be imported, and run with [NodeJS](https://nodejs.org/en/), making it very easy to test and debug parts of your code directly from node. This is thought especially for those who are learning about server-net and server-admin modules and for people who, in general, don't know much about bedrock-scripting for servers.
+gametestEmulator is a collection of classes, functions and constants that have the same behaviour and signature as modules form official [bedrock scripting API](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/). These classes can be imported, and run with [NodeJS](https://nodejs.org/en/), making it very easy to test and debug parts of your code directly from node. This is thought especially for those who are learning about server-net and server-admin modules and for people who, in general, don't know much about bedrock-scripting for servers.
 
 Having the same signature as official scripting, once you have fixed your server mechanics (connection between your local server and mc-server) you can easily copy and paste your code to your addon project (changing the `import` statement ofcourse), and it will work without any change.
 Furthermore, if you learned http request handling with bedrock-scripting, and you want to code more outsite bedrock (some nodejs app maybe) without learning form scratch how to use a new http-module, you can still use it!
