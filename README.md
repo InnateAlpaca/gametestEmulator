@@ -10,9 +10,11 @@ Furthermore, if you learned http request handling with bedrock-scripting, and yo
 Finally this library doesn't use any external class or module. You don't need to install anything more than just this very code.
 ## Supported modules
 For now only some of scripting modules are supported, mainly those related to server-scripting (which is probably the only case this tool would be useful).
-* server-admin
-* server-net
-* server (only some modules)
+For now `server-admin` and `server-net` have been completely implemented, for `server` only System was implemented, and in the future we will implement some of the most important events
+* minecraft/server-admin
+* minecraft/server-net
+* minecraft/server
+    * System
 ## Examples
 So, you are starting to code a bedrock->server service, and before adding all other stuff related to game you want to make sure that both your scripting code and server-code are compatibles. Or you may even have just written it, but something is wrong with server connection... (example taken from microsoft [docs](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server-net/httprequest))
 
